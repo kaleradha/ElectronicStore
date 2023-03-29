@@ -184,6 +184,7 @@ public class UserController {
         return new ResponseEntity<>(imageResponse,HttpStatus.CREATED);//201
     }
     //here we have to get the userImage by userId
+    //@author {Radha_patil}
     @GetMapping("/image/{userId}")
     public void serveImage(@PathVariable long userId, HttpServletResponse response) throws IOException {
         log.info("Intiated request for get the Image of user by userId : " +userId);
