@@ -1,6 +1,7 @@
 package com.shruteekatech.electronic.store.controller;
 
 import com.shruteekatech.electronic.store.dto.CatagoryDto;
+
 import com.shruteekatech.electronic.store.helper.*;
 
 import com.shruteekatech.electronic.store.service.CatagoryServiceI;
@@ -9,11 +10,15 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.StreamUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Date;
 import java.util.List;
 
@@ -27,7 +32,7 @@ public class CatagoryController {
     private CategoryFileService categoryFileService;
 
     @Value("${category.profile.image.path}")
-private String uploadCoverImage;
+    private String uploadCoverImage;
 
     @PostMapping
     public ResponseEntity<CatagoryDto> saveCatagory(@RequestBody CatagoryDto catagoryDto) {
@@ -79,23 +84,37 @@ private String uploadCoverImage;
         log.info("Completed request for delete the category: " + id);
         return new ResponseEntity<>(apiResponseMessage, HttpStatus.OK);
     }
-@GetMapping("/search/{keywords}")
-    public ResponseEntity<List<CatagoryDto>>searchCategories(@PathVariable String keywords){
+
+    @GetMapping("/search/{keywords}")
+    public ResponseEntity<List<CatagoryDto>> searchCategories(@PathVariable String keywords) {
         log.info("Initiated request for delete the category: " + keywords);
         List<CatagoryDto> catagoryDtos = this.catagoryServiceI.searchCategory(keywords);
         log.info("Completed request for delete the category: " + keywords);
-        return  new ResponseEntity<>(catagoryDtos,HttpStatus.OK);
+        return new ResponseEntity<>(catagoryDtos, HttpStatus.OK);
     }
-
-    public ResponseEntity<ImageResponse>uploadCoverImage(@RequestParam("uploadImage")MultipartFile coverimage,@PathVariable long id) throws IOException {
-        log.info("Initiated request for upload the coverImage of catefory: ");
+@PostMapping("/coverImage/{id}")
+    public ResponseEntity<ImageResponse> uploadCoverImage(@RequestParam("uploadImage") MultipartFile coverimage, @PathVariable long id) throws IOException {
+        log.info("Initiated request for upload the coverImage of category: "+id);
         String coverImage = categoryFileService.uploadCoverImage(coverimage, uploadCoverImage);
         CatagoryDto singleCatagory = this.catagoryServiceI.getSingleCatagory(id);
         singleCatagory.setCoverImage(coverImage);
         CatagoryDto catagoryDto = this.catagoryServiceI.updateCatagory(singleCatagory, id);
-        ImageResponse imageResponse =ImageResponse.builder()
+        ImageResponse imageResponse = ImageResponse.builder()
                 .imageName(coverImage).success(true).status(HttpStatus.CREATED)
                 .imgUploaddate(new Date()).message(AppConstant.UPLOAD_IMAGE).build();
-        return new ResponseEntity<>(imageResponse,HttpStatus.CREATED);
+        log.info("Completed request for upload the coverImage of category: "+id);
+        return new ResponseEntity<>(imageResponse, HttpStatus.CREATED);
+    }
+
+    @GetMapping("/image/{id}")
+    public void serveImage(@PathVariable long id, HttpServletResponse response) throws IOException {
+        log.info("Intiated request for get the Image of user by userId : " + id);
+        CatagoryDto catagory = catagoryServiceI.getSingleCatagory(id);
+        log.info("User image name: {} ", catagory.getCoverImage());
+        InputStream resource = categoryFileService.getResource(uploadCoverImage, catagory.getCoverImage());
+
+        response.setContentType(MediaType.IMAGE_JPEG_VALUE);
+        log.info("Completed request for get the Image of user by userId : " + id);
+        StreamUtils.copy(resource, response.getOutputStream());
     }
 }
