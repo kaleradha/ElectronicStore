@@ -1,0 +1,12 @@
+2023-04-02 00:49:29,011 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 27628 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-02 00:49:29,017 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-02 00:49:29,017 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-02 00:49:34,224 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.716 seconds (JVM running for 6.608)
+2023-04-02 20:40:36,971 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 16748 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-02 20:40:36,975 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-02 20:40:36,976 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-02 20:40:42,051 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.583 seconds (JVM running for 6.466)
+2023-04-02 20:41:05,438 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 25316 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-02 20:41:05,442 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-02 20:41:05,442 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-02 20:41:10,441 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.488 seconds (JVM running for 6.345)

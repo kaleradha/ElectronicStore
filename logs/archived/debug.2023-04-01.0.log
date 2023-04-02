@@ -1,0 +1,70 @@
+2023-04-01 18:18:25,937 INFO  CatagoryController:70 - [] Initiated request for get the category data: 2
+2023-04-01 18:18:26,067 INFO  CatagoryController:72 - [] Completed request for delete the category: 2
+2023-04-01 18:18:53,275 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 15204 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-01 18:18:53,279 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-01 18:18:53,280 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-01 18:18:57,884 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.025 seconds (JVM running for 5.869)
+2023-04-01 18:19:20,051 INFO  CatagoryController:70 - [] Initiated request for get the category data: 2
+2023-04-01 18:19:20,052 INFO  CatagoryImpl:51 - [] Intiated dao call for get single category by Id {} 2
+2023-04-01 18:19:20,118 INFO  CatagoryImpl:53 - [] Completed dao call for get single category by Id {} 2
+2023-04-01 18:19:20,145 INFO  CatagoryController:72 - [] Completed request for delete the category: 2
+2023-04-01 18:21:13,323 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 21108 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-01 18:21:13,326 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-01 18:21:13,326 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-01 18:21:18,026 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.146 seconds (JVM running for 5.923)
+2023-04-01 18:21:20,039 INFO  CatagoryController:70 - [] Initiated request for get the category data: 3
+2023-04-01 18:21:20,041 INFO  CatagoryImpl:51 - [] Intiated dao call for get single category by Id {} 3
+2023-04-01 18:21:20,110 INFO  CatagoryImpl:53 - [] Completed dao call for get single category by Id {} 3
+2023-04-01 18:21:20,143 INFO  CatagoryController:72 - [] Completed request for delete the category: 3
+2023-04-01 18:24:41,315 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 5908 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-01 18:24:41,318 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-01 18:24:41,319 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-01 18:24:45,826 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 4.962 seconds (JVM running for 5.726)
+2023-04-01 18:24:46,205 INFO  CatagoryController:70 - [] Initiated request for get the category data: {} 3
+2023-04-01 18:24:46,207 INFO  CatagoryImpl:51 - [] Intiated dao call for get single category by Id {} 3
+2023-04-01 18:24:46,256 INFO  CatagoryImpl:53 - [] Completed dao call for get single category by Id {} 3
+2023-04-01 18:24:46,278 INFO  CatagoryController:72 - [] Completed request for delete the category: {} 3
+2023-04-01 18:49:11,562 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 9780 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-01 18:49:11,566 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-01 18:49:11,567 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-01 18:49:16,585 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.514 seconds (JVM running for 6.409)
+2023-04-01 18:50:39,771 INFO  UserController:137 - [] Initiated request for Update the user details: {} 4
+2023-04-01 18:50:39,773 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 4
+2023-04-01 18:50:39,859 INFO  UserServiceImpl:107 - [] User Image Not found in folder
+2023-04-01 18:50:39,861 INFO  UserServiceImpl:114 - [] Completed dao request for delete user
+2023-04-01 18:50:39,931 INFO  UserController:144 - [] Completed request for Update the user details: {} 4
+2023-04-01 18:50:55,740 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 6
+2023-04-01 18:50:55,741 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 6
+2023-04-01 18:50:55,748 INFO  UserServiceImpl:131 - [] Completing dao call for get the single user data: {} 6
+2023-04-01 18:50:55,788 INFO  UserController:209 - [] User image name: edf271ab-97c9-4e20-9498-f9e7ae39c44b.jpeg 
+2023-04-01 18:50:55,792 INFO  FileImpl:59 - [] Initiated service request to get file/image  : edf271ab-97c9-4e20-9498-f9e7ae39c44b.jpeg
+2023-04-01 18:51:01,430 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 3
+2023-04-01 18:51:01,432 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 3
+2023-04-01 18:51:07,332 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 2
+2023-04-01 18:51:07,333 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 2
+2023-04-01 18:51:12,768 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 1
+2023-04-01 18:51:12,769 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 1
+2023-04-01 18:51:12,815 INFO  UserServiceImpl:131 - [] Completing dao call for get the single user data: {} 1
+2023-04-01 18:51:12,816 INFO  UserController:209 - [] User image name: 7fe05620-6671-4745-98c3-4556052ea280.jpeg 
+2023-04-01 18:51:12,817 INFO  FileImpl:59 - [] Initiated service request to get file/image  : 7fe05620-6671-4745-98c3-4556052ea280.jpeg
+2023-04-01 18:51:24,962 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 2
+2023-04-01 18:51:24,962 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 2
+2023-04-01 18:52:18,735 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 4
+2023-04-01 18:52:18,735 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 4
+2023-04-01 18:52:23,533 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 5
+2023-04-01 18:52:23,534 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 5
+2023-04-01 18:54:20,777 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 2
+2023-04-01 18:54:20,777 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 2
+2023-04-01 20:06:30,781 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 7
+2023-04-01 20:06:30,783 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 7
+2023-04-01 20:06:30,801 INFO  UserServiceImpl:131 - [] Completing dao call for get the single user data: {} 7
+2023-04-01 20:06:30,803 INFO  UserController:209 - [] User image name: 58da189b-b506-4904-8e99-ebb12a35a089.png 
+2023-04-01 20:06:30,803 INFO  FileImpl:59 - [] Initiated service request to get file/image  : 58da189b-b506-4904-8e99-ebb12a35a089.png
+2023-04-01 20:06:30,805 INFO  FileImpl:62 - [] Completed service request to get file/image  : 58da189b-b506-4904-8e99-ebb12a35a089.png
+2023-04-01 20:06:30,807 INFO  UserController:212 - [] Completed request for get the Image of user by userId: {} 7
+2023-04-01 20:06:43,095 INFO  UserController:137 - [] Initiated request for Update the user details: {} 7
+2023-04-01 20:06:43,095 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 7
+2023-04-01 20:06:43,103 INFO  UserServiceImpl:114 - [] Completed dao request for delete user
+2023-04-01 20:06:43,116 INFO  UserController:144 - [] Completed request for Update the user details: {} 7
+2023-04-01 20:07:04,521 INFO  UserController:207 - [] Intiated request for get the Image of user by userId: {} 7
+2023-04-01 20:07:04,521 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 7
