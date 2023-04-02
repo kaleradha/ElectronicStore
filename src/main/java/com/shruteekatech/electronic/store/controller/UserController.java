@@ -25,12 +25,11 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * This class is for generates API's request for User details.
+ * This class is for generates API request for User details.
  *
  * @author {Radha_patil}
  * @since 15-3-2023
- * <p>
- * <p>
+ *
  * ///=========//////=========/////===========/////==========/////====
  */
 @Slf4j
@@ -46,7 +45,7 @@ public class UserController {
     private String imageUploadPath;
 
     /**
-     * This api is for completing the req of save the user
+     * This api is for Creating the req of save the user
      *
      * @param userDto as parameter
      * @return the saved user will never (@literal null)
@@ -55,16 +54,16 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<UserDto> saveUser(@Valid @RequestBody UserDto userDto) {
-        log.info("Initiated request for save the user details");
+        log.info("Initiated request for save the user details:");
         UserDto user = this.userServiceI.createUser(userDto);
-        log.info("Completed request for save the user details");
+        log.info("Completed request for save the user details:");
         return new ResponseEntity<>(user, HttpStatus.CREATED);
 
 
     }
 
     /**
-     * this api is for completing the request of update the user.
+     * this api is for Creating the request of update the user.
      *
      * @param userdto with @{@link RequestBody}.
      * @param userId  with @{@link PathVariable}.
@@ -73,9 +72,9 @@ public class UserController {
 
     @PutMapping("/update/{userId}")
     public ResponseEntity<UserDto> updateuser(@Valid @RequestBody UserDto userdto, @PathVariable long userId) {
-        log.info("Initiated request for update the user details by userId : " + userId);
+        log.info("Initiated request for update the user details by userId {}: " + userId);
         UserDto userDto = this.userServiceI.updateUser(userdto, userId);
-        log.info("Completed request for update the user details by userId: " + userId);
+        log.info("Completed request for update the user details by userId {}: " + userId);
         return new ResponseEntity<>(userDto, HttpStatus.OK);
     }
 
@@ -87,9 +86,9 @@ public class UserController {
      */
     @GetMapping("/getuser/{userId}")
     public ResponseEntity<UserDto> getUser(@PathVariable long userId) {
-        log.info("Initiated request for get the single user details by userId: " + userId);
+        log.info("Initiated request for get the single user details by userId: {} " + userId);
         UserDto userDto = this.userServiceI.getSingleUser(userId);
-        log.info("Completed request for get the single user details by userId: " + userId);
+        log.info("Completed request for get the single user details by userId: {} " + userId);
         return new ResponseEntity<>(userDto, HttpStatus.OK);
     }
 
@@ -101,16 +100,20 @@ public class UserController {
      */
     @GetMapping("/byemail/{email}")
     public ResponseEntity<UserDto> getUserByEmail(@PathVariable String email) {
-        log.info("Initiated request for get the user details by User Email: " + email);
+        log.info("Initiated request for get the user details by User Email: {} " + email);
         UserDto userByEmail = this.userServiceI.getUserByEmail(email);
-        log.info("Completed request for get the user details by User Email: " + email);
+        log.info("Completed request for get the user details by User Email: {} " + email);
         return new ResponseEntity<>(userByEmail, HttpStatus.OK);
     }
 
-    /**
-     * This api is for accessing all the Users details.
+    /*
+     *This api is for accessing all the Users.
+     * @param pageSize takes size of the page in the parameters.
+     * @param pageNumber takes pageNumber start from 0
+     * @param sortBy takes condtion want to sort the user.
+     * @param sortDir it defines the direction which is needed to sorting.
+     * @return all the sorted list of user according to sorting order present in entity.
      *
-     * @return all the users presents in entities.
      */
 
     @GetMapping
@@ -135,14 +138,14 @@ public class UserController {
 
     @DeleteMapping("/{userId}")
     public ResponseEntity<ApiResponseMessage> deleteUser(@PathVariable long userId) {
-        log.info("Initiated request for Update the user details: " + userId);
+        log.info("Initiated request for Update the user details: {} " + userId);
 
             this.userServiceI.deleteUser(userId);
             ApiResponseMessage apiResponseMessage = ApiResponseMessage
                     .builder().message(AppConstant.USER_DELETE)
                     .success(true).currentDate(new Date())
                     .status(HttpStatus.OK).build();
-            log.info("Completed request for Update the user details: " + userId);
+            log.info("Completed request for Update the user details: {} " + userId);
 
             return new ResponseEntity<>(apiResponseMessage, HttpStatus.OK);
 
@@ -156,7 +159,7 @@ public class UserController {
      */
     @GetMapping("/search/{keywords}")
     public ResponseEntity<List<UserDto>> searchUsers(@PathVariable String keywords) {
-        log.info("Initiated request for search the user by keyword: " + keywords);
+        log.info("Initiated request for search the user by keyword: {} " + keywords);
 
             List<UserDto> userDtos = this.userServiceI.searchUser(keywords);
 
@@ -164,13 +167,22 @@ public class UserController {
 
                 return new ResponseEntity<>(HttpStatus.NO_CONTENT);//204
             }
-            log.info("Completed request for search the user by keyword: " + keywords);
+            log.info("Completed request for search the user by keyword: {} " + keywords);
             return new ResponseEntity<>(userDtos, HttpStatus.OK);
 
     }
+
+    /**
+     *
+     * This API  is for uploading the userImage.
+     * @param image uploaded by the user.
+     * @param userId cannot be {@Not null} .
+     * @return @{@link ImageResponse}with image uploaded message!.
+     * @throws IOException
+     */
     @PostMapping("/image/{userId}")
     public ResponseEntity<ImageResponse>uploadUserImage(@RequestParam("userImage") MultipartFile image,@PathVariable long userId) throws IOException {
-     log.info("Intiated request for upload the user: " +userId);
+     log.info("Intiated request for upload the user: {} " +userId);
         String imagename = fileservice.uplaodImage(image,imageUploadPath);
 
         UserDto user = this.userServiceI.getSingleUser(userId);
@@ -180,20 +192,28 @@ public class UserController {
         ImageResponse imageResponse =ImageResponse.builder()
                 .imageName(imagename).success(true).status(HttpStatus.CREATED)
                 .imgUploaddate(new Date()).message(AppConstant.UPLOAD_IMAGE).build();
-        log.info("Completed request for uploading the user image: " +userId);
+        log.info("Completed request for uploading the user image: {} " +userId);
         return new ResponseEntity<>(imageResponse,HttpStatus.CREATED);//201
     }
     //here we have to get the userImage by userId
-    //@author {Radha_patil}
+
+    /**
+     * This @api request is for get/fetch the Image of the Particular User.
+     *
+     * @author {Radha_patil}
+     * @param userId need not bu @{@NotNull}
+     * @param response with the Image
+     * @throws IOException
+     */
+
     @GetMapping("/image/{userId}")
     public void serveImage(@PathVariable long userId, HttpServletResponse response) throws IOException {
-        log.info("Intiated request for get the Image of user by userId : " +userId);
+        log.info("Intiated request for get the Image of user by userId: {} " +userId);
         UserDto user = userServiceI.getSingleUser(userId);
         log.info("User image name: {} ",user.getImageName());
         InputStream resource = fileservice.getResource(imageUploadPath, user.getImageName());
-
         response.setContentType(MediaType.IMAGE_JPEG_VALUE);
-        log.info("Completed request for get the Image of user by userId : " +userId);
+        log.info("Completed request for get the Image of user by userId: {} " +userId);
         StreamUtils.copy(resource,response.getOutputStream());
     }
 

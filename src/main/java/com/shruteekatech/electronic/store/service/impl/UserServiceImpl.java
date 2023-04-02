@@ -22,6 +22,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
@@ -72,7 +73,7 @@ public class UserServiceImpl implements UserServiceI {
      */
     @Override
     public UserDto updateUser(UserDto userdto, long userId) {
-        log.info("Initiating dao call for Update the user data by id: " + userId);
+        log.info("Initiating dao call for Update the user data by id: {} " + userId);
         User user = this.userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException(AppConstant.RESOURCE_NOT_FOUND));
         user.setIsactive(AppConstant.YES);
         user.setName(userdto.getName());
@@ -82,7 +83,7 @@ public class UserServiceImpl implements UserServiceI {
         user.setEmail(userdto.getEmail());
         user.setImageName(userdto.getImageName());
         User user1 = this.userRepository.save(user);
-        log.info("Completing dao call for Update the user data by id: " + userId);
+        log.info("Completing dao call for Update the user data by id: {} " + userId);
         return this.modelMapper.map(user1, UserDto.class);
     }
 
@@ -95,22 +96,27 @@ public class UserServiceImpl implements UserServiceI {
 
     @Override
     public void deleteUser(long userId) {
-        log.info("Initiating dao call for delete the user data: " + userId);
+        log.info("Initiating dao call for delete the user data: {} " + userId);
         User user = this.userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException(AppConstant.RESOURCE_NOT_FOUND + userId));
-      //  user.setIsactive(AppConstant.NO);
+
         String fullpath=imageUploadPath+user.getImageName();
         try {
             Path path = Paths.get(fullpath);
             Files.delete(path);
+        }catch (NoSuchFileException ex){
+            log.info("User Image Not found in folder");
+            ex.printStackTrace();
         } catch (IOException ex) {
             ex.printStackTrace();
 
         }
-
+        user.setIsactive(AppConstant.NO);
+        log.info("Completed dao request for delete user");
+        userRepository.delete(user);
     }
 
     /**
-     * to get the single user details by its userId.
+     *  This Method is to get the single user details by its userId.
      *
      * @param userId must not be (@literal null).
      * @return the instance of single user.
@@ -119,10 +125,10 @@ public class UserServiceImpl implements UserServiceI {
 
     @Override
     public UserDto getSingleUser(long userId) {
-        log.info("Initiating dao call for get the single user data: " + userId);
+        log.info("Initiating dao call for get the single user data: {} " + userId);
         User user = this.userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException(AppConstant.RESOURCE_NOT_FOUND + userId));
         user.setIsactive(AppConstant.YES);
-        log.info("Completing dao call for get the single user data: " + userId);
+        log.info("Completing dao call for get the single user data: {} " + userId);
         return this.modelMapper.map(user, UserDto.class);
     }
 
@@ -135,18 +141,21 @@ public class UserServiceImpl implements UserServiceI {
      */
     @Override
     public UserDto getUserByEmail(String email) {
-        log.info("Initiating dao call for get the single user data by Email: " + email);
+        log.info("Initiating dao call for get the single user data by Email: {} " + email);
         User user = this.userRepository.findByEmail(email).orElseThrow(() -> new ResourceNotFoundException(AppConstant.RESOURCE_NOT_FOUND + email));
-        log.info("Completing dao call for get the single user data by Email: " + email);
+        log.info("Completing dao call for get the single user data by Email: {} " + email);
         return this.modelMapper.map(user, UserDto.class);
     }
 
     /**
-     * To get all the users instance/details.
+     * This Method is for get all the Users in Sorting order.
      *
-     * @return all userDto /entities.
+     * @param pageSize
+     * @param pageNumber
+     * @param sortBy
+     * @param sortDir
+     * @return list of user present in entity & according to sorting order.
      */
-
     @Override
     public PageableResponse<UserDto> getAllUsers(int pageSize, int pageNumber, String sortBy, String sortDir) {
         log.info("Initiating dao call for get the all users data: ");
@@ -181,10 +190,10 @@ public class UserServiceImpl implements UserServiceI {
      */
     @Override
     public List<UserDto> searchUser(String keyword) {
-        log.info("Initiating dao call for get the all users data by keyword: " + keyword);
+        log.info("Initiating dao call for get the all users data by keyword: {} " + keyword);
         List<User> user = this.userRepository.findByNameContaining(keyword);
         List<UserDto> userDtos = user.stream().map(users -> this.modelMapper.map(users, UserDto.class)).collect(Collectors.toList());
-        log.info("Completing dao call for get the all users data by keyword: " + keyword);
+        log.info("Completing dao call for get the all users data by keyword: {} " + keyword);
         return userDtos;
     }
 

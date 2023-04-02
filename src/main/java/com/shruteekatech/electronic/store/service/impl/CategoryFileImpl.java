@@ -47,17 +47,17 @@ public class CategoryFileImpl implements CategoryFileService {
             return fileNamewithExtension;
 
         } else {
-            throw new BadApiRequestException("File with this " + extension + " not allowed");
+            throw new BadApiRequestException("File with this " +extension + " not allowed");
 
     }
 
 }
     @Override
     public InputStream getResource(String path, String name) throws FileNotFoundException {
-        log.info("Initiated service request to get file/image  : " + name);
+        log.info("Initiated service request to get file/image: {} " + name);
         String fullpath = path + File.separator + name;
         InputStream inputStream = new FileInputStream(fullpath);
-        log.info("Completed service request to get file/image  : " + name);
+        log.info("Completed service request to get file/image: {} " + name);
         return inputStream;
     }
 }
