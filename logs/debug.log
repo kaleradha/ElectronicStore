@@ -1,12 +1,160 @@
-2023-04-02 00:49:29,011 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 27628 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
-2023-04-02 00:49:29,017 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-02 00:49:29,017 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-02 00:49:34,224 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.716 seconds (JVM running for 6.608)
-2023-04-02 20:40:36,971 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 16748 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
-2023-04-02 20:40:36,975 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-02 20:40:36,976 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-02 20:40:42,051 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.583 seconds (JVM running for 6.466)
-2023-04-02 20:41:05,438 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 25316 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
-2023-04-02 20:41:05,442 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-02 20:41:05,442 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-02 20:41:10,441 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.488 seconds (JVM running for 6.345)
+2023-04-04 17:00:02,890 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 20036 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 17:00:02,894 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 17:00:02,895 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 17:00:07,693 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.286 seconds (JVM running for 6.173)
+2023-04-04 17:21:09,412 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 23852 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 17:21:09,417 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 17:21:09,418 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 17:21:14,092 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.18 seconds (JVM running for 5.951)
+2023-04-04 17:22:46,878 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 17:22:46,879 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 17:23:58,844 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 23384 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 17:23:58,848 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 17:23:58,848 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 17:24:03,720 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.305 seconds (JVM running for 6.074)
+2023-04-04 17:24:08,382 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 17:24:08,383 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 17:26:26,397 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 17:26:26,397 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 17:27:09,550 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 17:27:09,551 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 17:29:11,443 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 3464 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 17:29:11,447 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 17:29:11,447 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 17:29:16,185 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.185 seconds (JVM running for 5.954)
+2023-04-04 17:29:22,629 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 17:29:22,630 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 17:33:35,146 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 2380 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 17:33:35,149 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 17:33:35,150 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 17:33:40,313 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.613 seconds (JVM running for 6.446)
+2023-04-04 17:33:47,386 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 17:33:47,387 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 17:33:47,525 INFO  ProductServiceImpl:32 - [] Completed Dao call for save Product details: 
+2023-04-04 17:33:47,527 INFO  ProductController:24 - [] Completed request for Save the Products: {} 
+2023-04-04 18:05:08,671 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 29120 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 18:05:08,674 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 18:05:08,675 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 18:05:13,484 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.266 seconds (JVM running for 6.077)
+2023-04-04 18:05:17,567 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 18:05:17,568 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 18:05:17,685 INFO  ProductServiceImpl:33 - [] Completed Dao call for save Product details: 
+2023-04-04 18:05:17,688 INFO  ProductController:24 - [] Completed request for Save the Products: {} 
+2023-04-04 18:06:12,162 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 18:06:12,163 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 18:06:12,171 INFO  ProductServiceImpl:33 - [] Completed Dao call for save Product details: 
+2023-04-04 18:06:12,172 INFO  ProductController:24 - [] Completed request for Save the Products: {} 
+2023-04-04 18:06:39,109 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 10164 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 18:06:39,113 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 18:06:39,113 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 18:06:43,760 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.113 seconds (JVM running for 5.856)
+2023-04-04 18:06:44,384 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 18:06:44,384 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 18:06:44,490 INFO  ProductServiceImpl:34 - [] Completed Dao call for save Product details: 
+2023-04-04 18:06:44,492 INFO  ProductController:24 - [] Completed request for Save the Products: {} 
+2023-04-04 18:07:28,838 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 18:07:28,839 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 18:07:28,847 INFO  ProductServiceImpl:34 - [] Completed Dao call for save Product details: 
+2023-04-04 18:07:28,848 INFO  ProductController:24 - [] Completed request for Save the Products: {} 
+2023-04-04 18:28:33,746 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30732 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 18:28:33,750 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 18:28:33,750 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 18:28:38,781 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.457 seconds (JVM running for 6.227)
+2023-04-04 18:28:41,983 INFO  ProductController:31 - [] Initiated request for get Single Product: {} 2
+2023-04-04 18:28:41,984 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-04 18:28:42,081 INFO  ProductController:33 - [] Completed request for get Single Product: {} 2
+2023-04-04 18:31:44,928 INFO  ProductController:51 - [] Initiated request for get All  Products: {} 
+2023-04-04 18:31:44,929 INFO  ProductServiceImpl:73 - [] Intiating Dao call for save product details: 
+2023-04-04 18:31:45,102 INFO  ProductController:53 - [] Completed request for get All Products: {} 
+2023-04-04 18:32:03,377 INFO  ProductController:51 - [] Initiated request for get All  Products: {} 
+2023-04-04 18:32:03,378 INFO  ProductServiceImpl:73 - [] Intiating Dao call for save product details: 
+2023-04-04 18:32:03,407 INFO  ProductController:53 - [] Completed request for get All Products: {} 
+2023-04-04 18:32:56,230 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:32:56,230 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:32:56,299 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:33:11,628 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:33:11,628 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:33:24,816 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:33:24,824 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:33:24,824 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:33:33,723 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:33:33,723 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:33:33,726 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:33:51,498 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:33:51,499 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:33:51,504 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:34:01,484 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:34:01,485 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:34:01,490 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:34:06,642 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:34:06,642 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:34:06,651 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:34:22,127 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:34:22,132 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:34:22,139 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:34:35,183 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:34:35,184 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:34:35,190 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:34:45,098 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:34:45,100 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:34:45,115 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:34:55,047 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:34:55,047 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:34:55,063 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:36:25,986 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:36:25,987 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:36:25,997 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:36:57,421 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:36:57,421 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:36:57,432 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:38:00,199 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:38:00,199 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:38:00,208 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 18:38:21,650 INFO  ProductController:64 - [] Initiated request for get All live Products: {} 
+2023-04-04 18:38:21,650 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-04 18:38:21,663 INFO  ProductController:66 - [] completed request for get All live Products: {} 
+2023-04-04 22:11:33,184 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 31480 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 22:11:33,188 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 22:11:33,189 INFO  SpringApplication:637 - [] The following 1 profile is active: "prod"
+2023-04-04 22:13:44,738 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 29500 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 22:13:44,742 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 22:13:44,744 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 22:13:51,254 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 7.102 seconds (JVM running for 8.126)
+2023-04-04 22:13:51,839 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 22:13:51,840 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 22:13:51,968 INFO  ProductServiceImpl:34 - [] Completed Dao call for save Product details: 
+2023-04-04 22:13:51,972 INFO  ProductController:24 - [] Completed request for Save the Products: {} 
+2023-04-04 22:14:40,154 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12528 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 22:14:40,159 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 22:14:40,160 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 22:14:46,568 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 6.978 seconds (JVM running for 7.995)
+2023-04-04 22:14:49,187 INFO  ProductController:22 - [] Initiated request for Save the Products: {} 
+2023-04-04 22:14:49,189 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-04 22:14:49,370 INFO  ProductServiceImpl:34 - [] Completed Dao call for save Product details: 
+2023-04-04 22:14:49,374 INFO  ProductController:24 - [] Completed request for Save the Products: {} 
+2023-04-04 22:18:54,340 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 22904 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 22:18:54,347 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 22:18:54,348 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 22:19:01,599 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 7.887 seconds (JVM running for 8.953)
+2023-04-04 22:22:50,640 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30288 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 22:22:50,645 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 22:22:50,645 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 22:22:57,191 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 7.139 seconds (JVM running for 8.228)
+2023-04-04 22:23:07,117 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-04 22:24:29,236 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30880 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 22:24:29,240 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 22:24:29,241 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 22:24:35,537 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 6.869 seconds (JVM running for 7.942)
+2023-04-04 22:25:38,318 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-04 22:26:12,646 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 31220 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 22:26:12,651 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 22:26:12,652 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 22:26:19,076 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 6.993 seconds (JVM running for 8.093)
+2023-04-04 22:26:20,075 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-04 22:26:27,598 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-04 22:28:01,955 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 18880 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-04 22:28:01,960 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 22:28:01,961 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-04 22:28:08,204 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 6.821 seconds (JVM running for 7.899)
+2023-04-04 22:28:18,384 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-04 22:29:15,675 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
