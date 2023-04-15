@@ -99,21 +99,21 @@ public class UserServiceImpl implements UserServiceI {
         log.info("Initiating dao call for delete the user data: {} " + userId);
         User user = this.userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException(AppConstant.RESOURCE_NOT_FOUND + userId));
 
-        String fullpath=imageUploadPath+user.getImageName();
+        String fullpath = imageUploadPath + user.getImageName();
         try {
             Path path = Paths.get(fullpath);
-            Files.delete(path);
-        }catch (NoSuchFileException ex){
+              Files.delete(path);
+                }catch (NoSuchFileException ex){
             log.info("User Image Not found in folder");
-            ex.printStackTrace();
-        } catch (IOException ex) {
+             ex.printStackTrace();
+               } catch (IOException ex) {
             ex.printStackTrace();
 
         }
-        user.setIsactive(AppConstant.NO);
-        log.info("Completed dao request for delete user");
-        userRepository.delete(user);
-    }
+            user.setIsactive(AppConstant.NO);
+            log.info("Completed dao request for delete user");
+            userRepository.delete(user);
+        }
 
     /**
      *  This Method is to get the single user details by its userId.

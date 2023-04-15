@@ -96,7 +96,7 @@ public class ProductServiceImpl implements ProductService {
         log.info("Intiating Dao call for save product details: ");
         Sort sort=(sortDir.equalsIgnoreCase("desc"))?(Sort.by(sortBy).descending()) :(Sort.by(sortBy).ascending()) ;
         PageRequest pageRequest = PageRequest.of(pageNumber, pageSize, sort);
-        Page<Product> byTitleContaining = this.productRepository.findByTitleContaining(subTitle, pageRequest);
+        Page<Product> byTitleContaining = this.productRepository.findByTitleContaining(subTitle,pageRequest);
         PageableResponse<ProductDto> pageResponse = CustomPageHelper.getPageResponse(byTitleContaining, ProductDto.class);
         return pageResponse;
     }

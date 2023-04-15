@@ -10,6 +10,7 @@ import java.util.Date;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class ProductDto {
 
     private Long productId;

@@ -78,6 +78,7 @@ public class ProductController {
             @RequestParam(value = "sortDir", defaultValue = PaginationConstant.SORT_DIR, required = false) String sortDir) {
         log.info("Initiated request for serach the Products based on title: {} " + keywords);
         PageableResponse<ProductDto> response = this.productService.searchProductByTitle(keywords, pageSize, pageNumber, sortBy, sortDir);
+
         log.info("Completed request for Search  the Product based on title: {} " + keywords);
         return new ResponseEntity<>(response, HttpStatus.OK);
 
