@@ -1,12 +1,336 @@
-2023-04-02 00:49:29,011 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 27628 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
-2023-04-02 00:49:29,017 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-02 00:49:29,017 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-02 00:49:34,224 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.716 seconds (JVM running for 6.608)
-2023-04-02 20:40:36,971 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 16748 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
-2023-04-02 20:40:36,975 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-02 20:40:36,976 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-02 20:40:42,051 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.583 seconds (JVM running for 6.466)
-2023-04-02 20:41:05,438 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 25316 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
-2023-04-02 20:41:05,442 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-02 20:41:05,442 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-02 20:41:10,441 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 5.488 seconds (JVM running for 6.345)
+2023-04-15 17:25:21,968 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 15268 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:25:21,972 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:25:21,972 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:25:25,306 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 15268 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:25:25,307 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:25:25,307 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:25:25,892 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 15268 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:25:25,892 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:25:25,892 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:25:26,323 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 15268 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:25:26,324 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:25:26,324 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:25:26,729 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 15268 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:25:26,730 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:25:26,730 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:25:27,080 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 15268 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:25:27,081 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:25:27,081 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:25:51,362 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplicationTests using Java 17.0.4 on LAPTOP-KBM0POJG with PID 26252 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:25:51,365 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:25:51,365 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:26:31,028 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12652 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:26:31,030 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:26:31,031 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:26:33,899 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12652 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:26:33,900 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:26:33,901 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:26:34,385 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12652 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:26:34,385 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:26:34,385 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:26:34,823 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12652 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:26:34,824 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:26:34,824 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:26:35,230 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12652 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:26:35,230 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:26:35,230 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:26:35,640 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12652 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:26:35,640 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:26:35,640 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:27:28,371 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12316 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:27:28,373 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:27:28,374 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:27:31,605 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12316 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:27:31,605 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:27:31,606 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:27:32,130 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12316 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:27:32,131 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:27:32,131 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:27:32,562 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12316 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:27:32,563 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:27:32,563 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:27:33,005 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12316 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:27:33,005 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:27:33,006 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:27:33,405 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12316 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:27:33,405 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:27:33,405 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:27:33,782 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12316 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:27:33,782 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:27:33,782 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:28:27,769 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 9144 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:28:27,771 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:28:27,771 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:28:44,301 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 20920 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:28:44,304 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:28:44,304 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:29:03,324 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 18916 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:29:03,326 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:29:03,326 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:30:14,145 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30472 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:30:14,148 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:30:14,148 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:30:16,795 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30472 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:30:16,795 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:30:16,795 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:30:17,304 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30472 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:30:17,304 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:30:17,304 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:30:17,742 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30472 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:30:17,743 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:30:17,743 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:30:18,169 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30472 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:30:18,169 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:30:18,169 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:30:18,542 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 30472 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:30:18,542 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:30:18,542 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:36:59,671 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12720 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:36:59,674 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:36:59,675 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:37:03,623 INFO  StartupInfoLogger:61 - [] Started UserServiceTest in 4.221 seconds (JVM running for 5.371)
+2023-04-15 17:37:03,673 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 12
+2023-04-15 17:37:03,677 INFO  UserServiceImpl:131 - [] Completing dao call for get the single user data: {} 12
+2023-04-15 17:37:03,704 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 23
+2023-04-15 17:37:03,722 INFO  UserServiceImpl:161 - [] Initiating dao call for get the all users data: 
+2023-04-15 17:37:03,729 INFO  UserServiceImpl:179 - [] Completing dao call for get the all users data: 
+2023-04-15 17:37:03,735 INFO  UserServiceImpl:76 - [] Initiating dao call for Update the user data by id: {} 10
+2023-04-15 17:37:03,736 INFO  UserServiceImpl:86 - [] Completing dao call for Update the user data by id: {} 10
+2023-04-15 17:37:03,737 INFO  UserServiceImpl:76 - [] Initiating dao call for Update the user data by id: {} 19
+2023-04-15 17:37:03,743 INFO  UserServiceImpl:193 - [] Initiating dao call for get the all users data by keyword: {} radha
+2023-04-15 17:37:03,745 INFO  UserServiceImpl:196 - [] Completing dao call for get the all users data by keyword: {} radha
+2023-04-15 17:37:03,750 INFO  UserServiceImpl:144 - [] Initiating dao call for get the single user data by Email: {} kaleradha
+2023-04-15 17:37:03,751 INFO  UserServiceImpl:146 - [] Completing dao call for get the single user data by Email: {} kaleradha
+2023-04-15 17:37:03,752 INFO  UserServiceImpl:144 - [] Initiating dao call for get the single user data by Email: {} radha
+2023-04-15 17:37:03,758 INFO  UserServiceImpl:59 - [] Initiating dao call for the Save the user data: 
+2023-04-15 17:37:03,761 INFO  UserServiceImpl:63 - [] Completing dao call for Save the user data: 
+2023-04-15 17:37:03,766 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 10
+2023-04-15 17:37:03,767 INFO  UserServiceImpl:107 - [] User Image Not found in folder
+2023-04-15 17:37:03,768 INFO  UserServiceImpl:114 - [] Completed dao request for delete user
+2023-04-15 17:37:03,774 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 12
+2023-04-15 17:37:31,132 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 34584 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:37:31,135 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:37:31,136 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:37:34,868 INFO  StartupInfoLogger:61 - [] Started CategoryImplTest in 4.008 seconds (JVM running for 5.037)
+2023-04-15 17:37:34,934 INFO  CatagoryImpl:49 - [] Initiated Dao call for create the category! 
+2023-04-15 17:37:34,937 INFO  CatagoryImpl:53 - [] Completed Dao call for create the category! 
+2023-04-15 17:37:34,959 INFO  CatagoryImpl:126 - [] Intiated dao call for delete category by Id {} 10
+2023-04-15 17:37:34,961 INFO  CatagoryImpl:128 - [] Completing dao call for delete category by Id {} 10
+2023-04-15 17:37:34,967 INFO  CatagoryImpl:126 - [] Intiated dao call for delete category by Id {} 43
+2023-04-15 17:37:34,975 INFO  CatagoryImpl:107 - [] Initiating dao call for Update the category data by id: {} 45
+2023-04-15 17:37:34,976 INFO  CatagoryImpl:114 - [] Completing dao call for Update the category data by id: {} 45
+2023-04-15 17:37:34,977 INFO  CatagoryImpl:107 - [] Initiating dao call for Update the category data by id: {} 33
+2023-04-15 17:37:34,985 INFO  CatagoryImpl:87 - [] Intiated dao call for get all category : {} 
+2023-04-15 17:37:34,991 INFO  CatagoryImpl:93 - [] Completed dao call for get all category : {} 
+2023-04-15 17:37:35,000 INFO  CatagoryImpl:68 - [] Intiated dao call for get single category by Id: {} 10
+2023-04-15 17:37:35,008 INFO  CatagoryImpl:70 - [] Completed dao call for get single category by Id: {} 10
+2023-04-15 17:37:35,010 INFO  CatagoryImpl:68 - [] Intiated dao call for get single category by Id: {} 12
+2023-04-15 17:37:35,020 INFO  CatagoryImpl:142 - [] Intiated dao call for get all category by keyword: {} radha
+2023-04-15 17:37:35,022 INFO  CatagoryImpl:145 - [] Completed dao call for get all category by keywords: {} radha
+2023-04-15 17:39:38,684 INFO  StartupInfoLogger:55 - [] Starting ProductImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 24796 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:39:38,688 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:39:38,688 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:39:42,562 INFO  StartupInfoLogger:61 - [] Started ProductImplTest in 4.133 seconds (JVM running for 5.494)
+2023-04-15 17:40:33,043 INFO  StartupInfoLogger:55 - [] Starting ProductImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 14068 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:40:33,046 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:40:33,046 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:40:36,739 INFO  StartupInfoLogger:61 - [] Started ProductImplTest in 3.961 seconds (JVM running for 4.996)
+2023-04-15 17:40:36,787 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-15 17:41:21,184 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplicationTests using Java 17.0.4 on LAPTOP-KBM0POJG with PID 32256 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:41:21,188 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:41:21,189 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:41:26,430 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplicationTests in 5.6 seconds (JVM running for 7.315)
+2023-04-15 17:41:26,715 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 32256 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:41:26,715 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:41:26,716 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:41:27,756 INFO  StartupInfoLogger:61 - [] Started CategoryImplTest in 1.073 seconds (JVM running for 8.641)
+2023-04-15 17:41:27,852 INFO  CatagoryImpl:49 - [] Initiated Dao call for create the category! 
+2023-04-15 17:41:27,860 INFO  CatagoryImpl:53 - [] Completed Dao call for create the category! 
+2023-04-15 17:41:27,879 INFO  CatagoryImpl:126 - [] Intiated dao call for delete category by Id {} 10
+2023-04-15 17:41:27,880 INFO  CatagoryImpl:128 - [] Completing dao call for delete category by Id {} 10
+2023-04-15 17:41:27,893 INFO  CatagoryImpl:126 - [] Intiated dao call for delete category by Id {} 43
+2023-04-15 17:41:27,901 INFO  CatagoryImpl:107 - [] Initiating dao call for Update the category data by id: {} 45
+2023-04-15 17:41:27,903 INFO  CatagoryImpl:114 - [] Completing dao call for Update the category data by id: {} 45
+2023-04-15 17:41:27,905 INFO  CatagoryImpl:107 - [] Initiating dao call for Update the category data by id: {} 33
+2023-04-15 17:41:27,918 INFO  CatagoryImpl:87 - [] Intiated dao call for get all category : {} 
+2023-04-15 17:41:27,927 INFO  CatagoryImpl:93 - [] Completed dao call for get all category : {} 
+2023-04-15 17:41:27,934 INFO  CatagoryImpl:68 - [] Intiated dao call for get single category by Id: {} 10
+2023-04-15 17:41:27,936 INFO  CatagoryImpl:70 - [] Completed dao call for get single category by Id: {} 10
+2023-04-15 17:41:27,937 INFO  CatagoryImpl:68 - [] Intiated dao call for get single category by Id: {} 12
+2023-04-15 17:41:27,944 INFO  CatagoryImpl:142 - [] Intiated dao call for get all category by keyword: {} radha
+2023-04-15 17:41:27,947 INFO  CatagoryImpl:145 - [] Completed dao call for get all category by keywords: {} radha
+2023-04-15 17:41:27,993 INFO  StartupInfoLogger:55 - [] Starting ProductImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 32256 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:41:27,994 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:41:27,995 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:41:28,827 INFO  StartupInfoLogger:61 - [] Started ProductImplTest in 0.867 seconds (JVM running for 9.712)
+2023-04-15 17:41:28,836 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-15 17:41:28,839 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-15 17:41:28,844 INFO  ProductServiceImpl:41 - [] Intiating Dao call for Update the existing product details: 45
+2023-04-15 17:41:28,846 INFO  ProductServiceImpl:41 - [] Intiating Dao call for Update the existing product details: 4
+2023-04-15 17:41:28,853 INFO  ProductServiceImpl:73 - [] Intiating Dao call for save product details: 
+2023-04-15 17:41:28,862 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-15 17:41:28,869 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-15 17:41:28,870 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-15 17:41:28,875 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-15 17:41:28,877 INFO  ProductServiceImpl:34 - [] Completed Dao call for save Product details: 
+2023-04-15 17:41:28,925 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 32256 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:41:28,925 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:41:28,925 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:41:29,692 INFO  StartupInfoLogger:61 - [] Started UserServiceTest in 0.786 seconds (JVM running for 10.576)
+2023-04-15 17:41:29,699 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 12
+2023-04-15 17:41:29,700 INFO  UserServiceImpl:131 - [] Completing dao call for get the single user data: {} 12
+2023-04-15 17:41:29,704 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 23
+2023-04-15 17:41:29,709 INFO  UserServiceImpl:161 - [] Initiating dao call for get the all users data: 
+2023-04-15 17:41:29,712 INFO  UserServiceImpl:179 - [] Completing dao call for get the all users data: 
+2023-04-15 17:41:29,719 INFO  UserServiceImpl:76 - [] Initiating dao call for Update the user data by id: {} 10
+2023-04-15 17:41:29,720 INFO  UserServiceImpl:86 - [] Completing dao call for Update the user data by id: {} 10
+2023-04-15 17:41:29,721 INFO  UserServiceImpl:76 - [] Initiating dao call for Update the user data by id: {} 19
+2023-04-15 17:41:29,725 INFO  UserServiceImpl:193 - [] Initiating dao call for get the all users data by keyword: {} radha
+2023-04-15 17:41:29,727 INFO  UserServiceImpl:196 - [] Completing dao call for get the all users data by keyword: {} radha
+2023-04-15 17:41:29,730 INFO  UserServiceImpl:144 - [] Initiating dao call for get the single user data by Email: {} kaleradha
+2023-04-15 17:41:29,731 INFO  UserServiceImpl:146 - [] Completing dao call for get the single user data by Email: {} kaleradha
+2023-04-15 17:41:29,732 INFO  UserServiceImpl:144 - [] Initiating dao call for get the single user data by Email: {} radha
+2023-04-15 17:41:29,739 INFO  UserServiceImpl:59 - [] Initiating dao call for the Save the user data: 
+2023-04-15 17:41:29,740 INFO  UserServiceImpl:63 - [] Completing dao call for Save the user data: 
+2023-04-15 17:41:29,744 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 10
+2023-04-15 17:41:29,745 INFO  UserServiceImpl:107 - [] User Image Not found in folder
+2023-04-15 17:41:29,749 INFO  UserServiceImpl:114 - [] Completed dao request for delete user
+2023-04-15 17:41:29,750 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 12
+2023-04-15 17:42:50,820 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplicationTests using Java 17.0.4 on LAPTOP-KBM0POJG with PID 7500 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:42:50,824 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:42:50,825 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:42:56,130 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplicationTests in 5.672 seconds (JVM running for 7.381)
+2023-04-15 17:42:56,437 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 7500 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:42:56,437 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:42:56,437 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:42:57,668 INFO  StartupInfoLogger:61 - [] Started CategoryImplTest in 1.265 seconds (JVM running for 8.919)
+2023-04-15 17:42:57,744 INFO  CatagoryImpl:49 - [] Initiated Dao call for create the category! 
+2023-04-15 17:42:57,753 INFO  CatagoryImpl:53 - [] Completed Dao call for create the category! 
+2023-04-15 17:42:57,774 INFO  CatagoryImpl:126 - [] Intiated dao call for delete category by Id {} 10
+2023-04-15 17:42:57,775 INFO  CatagoryImpl:128 - [] Completing dao call for delete category by Id {} 10
+2023-04-15 17:42:57,786 INFO  CatagoryImpl:126 - [] Intiated dao call for delete category by Id {} 43
+2023-04-15 17:42:57,795 INFO  CatagoryImpl:107 - [] Initiating dao call for Update the category data by id: {} 45
+2023-04-15 17:42:57,796 INFO  CatagoryImpl:114 - [] Completing dao call for Update the category data by id: {} 45
+2023-04-15 17:42:57,798 INFO  CatagoryImpl:107 - [] Initiating dao call for Update the category data by id: {} 33
+2023-04-15 17:42:57,807 INFO  CatagoryImpl:87 - [] Intiated dao call for get all category : {} 
+2023-04-15 17:42:57,817 INFO  CatagoryImpl:93 - [] Completed dao call for get all category : {} 
+2023-04-15 17:42:57,823 INFO  CatagoryImpl:68 - [] Intiated dao call for get single category by Id: {} 10
+2023-04-15 17:42:57,823 INFO  CatagoryImpl:70 - [] Completed dao call for get single category by Id: {} 10
+2023-04-15 17:42:57,825 INFO  CatagoryImpl:68 - [] Intiated dao call for get single category by Id: {} 12
+2023-04-15 17:42:57,832 INFO  CatagoryImpl:142 - [] Intiated dao call for get all category by keyword: {} radha
+2023-04-15 17:42:57,833 INFO  CatagoryImpl:145 - [] Completed dao call for get all category by keywords: {} radha
+2023-04-15 17:42:57,870 INFO  StartupInfoLogger:55 - [] Starting ProductImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 7500 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:42:57,870 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:42:57,870 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:42:59,042 INFO  StartupInfoLogger:61 - [] Started ProductImplTest in 1.199 seconds (JVM running for 10.293)
+2023-04-15 17:42:59,055 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-15 17:42:59,059 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-15 17:42:59,065 INFO  ProductServiceImpl:41 - [] Intiating Dao call for Update the existing product details: 45
+2023-04-15 17:42:59,068 INFO  ProductServiceImpl:41 - [] Intiating Dao call for Update the existing product details: 4
+2023-04-15 17:42:59,074 INFO  ProductServiceImpl:73 - [] Intiating Dao call for save product details: 
+2023-04-15 17:42:59,084 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-15 17:42:59,093 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-15 17:42:59,095 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-15 17:42:59,102 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-15 17:42:59,104 INFO  ProductServiceImpl:34 - [] Completed Dao call for save Product details: 
+2023-04-15 17:42:59,146 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 7500 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:42:59,146 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:42:59,147 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:43:00,104 INFO  StartupInfoLogger:61 - [] Started UserServiceTest in 0.987 seconds (JVM running for 11.355)
+2023-04-15 17:43:00,114 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 12
+2023-04-15 17:43:00,116 INFO  UserServiceImpl:131 - [] Completing dao call for get the single user data: {} 12
+2023-04-15 17:43:00,121 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 23
+2023-04-15 17:43:00,127 INFO  UserServiceImpl:161 - [] Initiating dao call for get the all users data: 
+2023-04-15 17:43:00,131 INFO  UserServiceImpl:179 - [] Completing dao call for get the all users data: 
+2023-04-15 17:43:00,138 INFO  UserServiceImpl:76 - [] Initiating dao call for Update the user data by id: {} 10
+2023-04-15 17:43:00,140 INFO  UserServiceImpl:86 - [] Completing dao call for Update the user data by id: {} 10
+2023-04-15 17:43:00,141 INFO  UserServiceImpl:76 - [] Initiating dao call for Update the user data by id: {} 19
+2023-04-15 17:43:00,147 INFO  UserServiceImpl:193 - [] Initiating dao call for get the all users data by keyword: {} radha
+2023-04-15 17:43:00,148 INFO  UserServiceImpl:196 - [] Completing dao call for get the all users data by keyword: {} radha
+2023-04-15 17:43:00,154 INFO  UserServiceImpl:144 - [] Initiating dao call for get the single user data by Email: {} kaleradha
+2023-04-15 17:43:00,155 INFO  UserServiceImpl:146 - [] Completing dao call for get the single user data by Email: {} kaleradha
+2023-04-15 17:43:00,157 INFO  UserServiceImpl:144 - [] Initiating dao call for get the single user data by Email: {} radha
+2023-04-15 17:43:00,165 INFO  UserServiceImpl:59 - [] Initiating dao call for the Save the user data: 
+2023-04-15 17:43:00,168 INFO  UserServiceImpl:63 - [] Completing dao call for Save the user data: 
+2023-04-15 17:43:00,175 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 10
+2023-04-15 17:43:00,175 INFO  UserServiceImpl:107 - [] User Image Not found in folder
+2023-04-15 17:43:00,179 INFO  UserServiceImpl:114 - [] Completed dao request for delete user
+2023-04-15 17:43:00,181 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 12
+2023-04-15 17:49:11,166 INFO  StartupInfoLogger:55 - [] Starting ProductImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 12856 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 17:49:11,169 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 17:49:11,169 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 17:49:14,690 INFO  StartupInfoLogger:61 - [] Started ProductImplTest in 3.756 seconds (JVM running for 4.687)
+2023-04-15 18:06:45,297 INFO  StartupInfoLogger:55 - [] Starting ProductImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 20392 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 18:06:45,300 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 18:06:45,301 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 18:06:48,851 INFO  StartupInfoLogger:61 - [] Started ProductImplTest in 3.776 seconds (JVM running for 4.699)
+2023-04-15 18:06:48,926 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-15 18:06:48,962 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-15 18:06:48,982 INFO  ProductServiceImpl:41 - [] Intiating Dao call for Update the existing product details: 45
+2023-04-15 18:06:48,985 INFO  ProductServiceImpl:41 - [] Intiating Dao call for Update the existing product details: 4
+2023-04-15 18:06:48,994 INFO  ProductServiceImpl:73 - [] Intiating Dao call for save product details: 
+2023-04-15 18:06:49,007 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-15 18:06:49,014 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-15 18:06:49,015 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-15 18:06:49,020 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-15 18:06:49,023 INFO  ProductServiceImpl:34 - [] Completed Dao call for save Product details: 
+2023-04-15 18:07:16,009 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplicationTests using Java 17.0.4 on LAPTOP-KBM0POJG with PID 11028 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 18:07:16,013 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 18:07:16,014 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 18:07:20,551 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplicationTests in 4.891 seconds (JVM running for 6.312)
+2023-04-15 18:07:20,787 INFO  StartupInfoLogger:55 - [] Starting CategoryImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 11028 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 18:07:20,788 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 18:07:20,789 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 18:07:21,663 INFO  StartupInfoLogger:61 - [] Started CategoryImplTest in 0.902 seconds (JVM running for 7.424)
+2023-04-15 18:07:21,717 INFO  CatagoryImpl:49 - [] Initiated Dao call for create the category! 
+2023-04-15 18:07:21,722 INFO  CatagoryImpl:53 - [] Completed Dao call for create the category! 
+2023-04-15 18:07:21,733 INFO  CatagoryImpl:126 - [] Intiated dao call for delete category by Id {} 10
+2023-04-15 18:07:21,735 INFO  CatagoryImpl:128 - [] Completing dao call for delete category by Id {} 10
+2023-04-15 18:07:21,741 INFO  CatagoryImpl:126 - [] Intiated dao call for delete category by Id {} 43
+2023-04-15 18:07:21,747 INFO  CatagoryImpl:107 - [] Initiating dao call for Update the category data by id: {} 45
+2023-04-15 18:07:21,748 INFO  CatagoryImpl:114 - [] Completing dao call for Update the category data by id: {} 45
+2023-04-15 18:07:21,749 INFO  CatagoryImpl:107 - [] Initiating dao call for Update the category data by id: {} 33
+2023-04-15 18:07:21,757 INFO  CatagoryImpl:87 - [] Intiated dao call for get all category : {} 
+2023-04-15 18:07:21,763 INFO  CatagoryImpl:93 - [] Completed dao call for get all category : {} 
+2023-04-15 18:07:21,768 INFO  CatagoryImpl:68 - [] Intiated dao call for get single category by Id: {} 10
+2023-04-15 18:07:21,768 INFO  CatagoryImpl:70 - [] Completed dao call for get single category by Id: {} 10
+2023-04-15 18:07:21,769 INFO  CatagoryImpl:68 - [] Intiated dao call for get single category by Id: {} 12
+2023-04-15 18:07:21,773 INFO  CatagoryImpl:142 - [] Intiated dao call for get all category by keyword: {} radha
+2023-04-15 18:07:21,774 INFO  CatagoryImpl:145 - [] Completed dao call for get all category by keywords: {} radha
+2023-04-15 18:07:21,801 INFO  StartupInfoLogger:55 - [] Starting ProductImplTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 11028 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 18:07:21,801 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 18:07:21,801 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 18:07:22,533 INFO  StartupInfoLogger:61 - [] Started ProductImplTest in 0.751 seconds (JVM running for 8.295)
+2023-04-15 18:07:22,540 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-15 18:07:22,543 INFO  ProductServiceImpl:58 - [] Intiating Dao call for save product details: 
+2023-04-15 18:07:22,548 INFO  ProductServiceImpl:41 - [] Intiating Dao call for Update the existing product details: 45
+2023-04-15 18:07:22,550 INFO  ProductServiceImpl:41 - [] Intiating Dao call for Update the existing product details: 4
+2023-04-15 18:07:22,554 INFO  ProductServiceImpl:73 - [] Intiating Dao call for save product details: 
+2023-04-15 18:07:22,562 INFO  ProductServiceImpl:83 - [] Intiating Dao call for save product details: 
+2023-04-15 18:07:22,568 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-15 18:07:22,569 INFO  ProductServiceImpl:66 - [] Intiating Dao call for save product details: 
+2023-04-15 18:07:22,573 INFO  ProductServiceImpl:29 - [] Intiating Dao call for save product details: 
+2023-04-15 18:07:22,575 INFO  ProductServiceImpl:34 - [] Completed Dao call for save Product details: 
+2023-04-15 18:07:22,604 INFO  StartupInfoLogger:55 - [] Starting UserServiceTest using Java 17.0.4 on LAPTOP-KBM0POJG with PID 11028 (started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-15 18:07:22,604 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-15 18:07:22,604 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-15 18:07:23,332 INFO  StartupInfoLogger:61 - [] Started UserServiceTest in 0.748 seconds (JVM running for 9.094)
+2023-04-15 18:07:23,340 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 12
+2023-04-15 18:07:23,341 INFO  UserServiceImpl:131 - [] Completing dao call for get the single user data: {} 12
+2023-04-15 18:07:23,346 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 23
+2023-04-15 18:07:23,351 INFO  UserServiceImpl:161 - [] Initiating dao call for get the all users data: 
+2023-04-15 18:07:23,354 INFO  UserServiceImpl:179 - [] Completing dao call for get the all users data: 
+2023-04-15 18:07:23,358 INFO  UserServiceImpl:76 - [] Initiating dao call for Update the user data by id: {} 10
+2023-04-15 18:07:23,359 INFO  UserServiceImpl:86 - [] Completing dao call for Update the user data by id: {} 10
+2023-04-15 18:07:23,360 INFO  UserServiceImpl:76 - [] Initiating dao call for Update the user data by id: {} 19
+2023-04-15 18:07:23,364 INFO  UserServiceImpl:193 - [] Initiating dao call for get the all users data by keyword: {} radha
+2023-04-15 18:07:23,366 INFO  UserServiceImpl:196 - [] Completing dao call for get the all users data by keyword: {} radha
+2023-04-15 18:07:23,369 INFO  UserServiceImpl:144 - [] Initiating dao call for get the single user data by Email: {} kaleradha
+2023-04-15 18:07:23,370 INFO  UserServiceImpl:146 - [] Completing dao call for get the single user data by Email: {} kaleradha
+2023-04-15 18:07:23,371 INFO  UserServiceImpl:144 - [] Initiating dao call for get the single user data by Email: {} radha
+2023-04-15 18:07:23,376 INFO  UserServiceImpl:59 - [] Initiating dao call for the Save the user data: 
+2023-04-15 18:07:23,379 INFO  UserServiceImpl:63 - [] Completing dao call for Save the user data: 
+2023-04-15 18:07:23,383 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 10
+2023-04-15 18:07:23,384 INFO  UserServiceImpl:107 - [] User Image Not found in folder
+2023-04-15 18:07:23,387 INFO  UserServiceImpl:114 - [] Completed dao request for delete user
+2023-04-15 18:07:23,388 INFO  UserServiceImpl:99 - [] Initiating dao call for delete the user data: {} 12

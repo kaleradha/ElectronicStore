@@ -1,0 +1,21 @@
+2023-04-03 12:27:14,320 INFO  UserController:211 - [] Intiated request for get the Image of user by userId: {} 4
+2023-04-03 12:27:14,332 INFO  UserServiceImpl:128 - [] Initiating dao call for get the single user data: {} 4
+2023-04-03 21:10:57,154 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 16620 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-03 21:10:57,159 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-03 21:10:57,160 INFO  SpringApplication:637 - [] The following 1 profile is active: "prod"
+2023-04-03 21:12:12,905 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 23216 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-03 21:12:12,948 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-03 21:12:12,949 INFO  SpringApplication:637 - [] The following 1 profile is active: "prod"
+2023-04-03 21:12:19,431 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 7.089 seconds (JVM running for 8.19)
+2023-04-03 22:25:51,350 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 2824 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-03 22:25:51,352 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-03 22:25:51,353 INFO  SpringApplication:637 - [] The following 1 profile is active: "prod"
+2023-04-03 22:25:54,552 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 3.516 seconds (JVM running for 4.088)
+2023-04-03 22:27:17,377 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on LAPTOP-KBM0POJG with PID 8624 (C:\ElectronicStore (1)\ElectronicStore\target\classes started by user in C:\ElectronicStore (1)\ElectronicStore)
+2023-04-03 22:27:17,379 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-03 22:27:17,380 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-03 22:27:20,360 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 3.268 seconds (JVM running for 3.738)
+2023-04-03 22:27:25,441 INFO  UserController:57 - [] Initiated request for save the user details:
+2023-04-03 22:27:25,442 INFO  UserServiceImpl:59 - [] Initiating dao call for the Save the user data: 
+2023-04-03 22:27:25,592 INFO  UserServiceImpl:63 - [] Completing dao call for Save the user data: 
+2023-04-03 22:27:25,594 INFO  UserController:59 - [] Completed request for save the user details:
