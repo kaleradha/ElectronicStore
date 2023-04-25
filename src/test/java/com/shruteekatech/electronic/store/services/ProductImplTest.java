@@ -1,6 +1,5 @@
 package com.shruteekatech.electronic.store.services;
 
-import com.shruteekatech.electronic.store.dto.CatagoryDto;
 import com.shruteekatech.electronic.store.dto.ProductDto;
 import com.shruteekatech.electronic.store.entity.Product;
 import com.shruteekatech.electronic.store.exception.ResourceNotFoundException;
@@ -10,7 +9,6 @@ import com.shruteekatech.electronic.store.service.ProductService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -118,21 +116,22 @@ public class ProductImplTest extends BaseTest {
         boolean live = true;
         Page<Product> page = new PageImpl<>(productList);
         Mockito.when(productRepository.findByliveTrue((Pageable) Mockito.any())).thenReturn(page);
-        PageableResponse<ProductDto> all = productService.getAllLive(1, 2, "live", "asc");
+        PageableResponse<ProductDto> all = productService.getAllLive(Mockito.anyBoolean(), 1, 2, "live", "asc");
         Assertions.assertEquals(2, all.getContent().size());
     }
 
- //   @Test
-//    public void searchbyKeywordTest() {
-//        //arrange
-//        String subtitle= "radha";
-//        Page<Product> page = new PageImpl<>(productList);
-//
-//        Pageable Pageable = null;
-//        Mockito.when(productRepository.findByTitleContaining()
-//
-//        //act
-//
-//        Assertions.assertEquals(2, productDtoPageableResponse);
+    @Test
+    public void searchbyKeywordTest() {
+        //arrange
+        String subtitle= "radha";
+        Page<Product> page = new PageImpl<>(productList);
+
+        Pageable Pageable = null;
+        Mockito.when(productRepository.findByTitleContaining(subtitle, (org.springframework.data.domain.Pageable) page));
+
+        //act
+
+     //   Assertions.assertEquals(2, productDtoPageableResponse);
 
     }
+}

@@ -14,14 +14,17 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.data.domain.*;
+import org.springframework.test.context.ContextConfiguration;
 
 
 import java.util.*;
 
+@SpringBootTest(value =" UserServiceTest.class")
 
-public class UserServiceTest extends BaseTest{
+public class UserServiceTest{
     @MockBean
     private UserRepository userRepository ;
     @Autowired
@@ -87,7 +90,7 @@ public void init() {
 @Test
 void updateUserTest(){
     Long id = 10L;
-    Mockito.when(userRepository.findById(id)).thenReturn(Optional.of(user));
+    Mockito.when(userRepository.findById(id)).thenReturn(Optional.ofNullable(user));
     Mockito.when(userRepository.save(Mockito.any())).thenReturn(user);
     //act
     UserDto updateUser = userServiceI.updateUser(userDto, id);
