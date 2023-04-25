@@ -3,12 +3,16 @@ package com.shruteekatech.electronic.store.entity;
 import jdk.jfr.Timestamp;
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
+import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.Fetch;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Setter
 @Getter
@@ -31,5 +35,9 @@ public class Product {
     private Date addedaDte;
     private boolean live;
     private boolean stock;
+    private String productImage;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name="cat_id")
+     private Catagory catagory;
 
 }

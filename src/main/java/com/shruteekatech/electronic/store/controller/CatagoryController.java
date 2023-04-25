@@ -2,10 +2,12 @@ package com.shruteekatech.electronic.store.controller;
 
 import com.shruteekatech.electronic.store.dto.CatagoryDto;
 
+import com.shruteekatech.electronic.store.dto.ProductDto;
 import com.shruteekatech.electronic.store.helper.*;
 
 import com.shruteekatech.electronic.store.service.CatagoryServiceI;
 import com.shruteekatech.electronic.store.service.CategoryFileService;
+import com.shruteekatech.electronic.store.service.ProductService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -37,6 +39,8 @@ public class CatagoryController {
     private CatagoryServiceI catagoryServiceI;
     @Autowired
     private CategoryFileService categoryFileService;
+    @Autowired
+    private ProductService productService;
 
     @Value("${category.profile.image.path}")
     private String uploadCoverImage;
@@ -182,5 +186,10 @@ public class CatagoryController {
         response.setContentType(MediaType.IMAGE_JPEG_VALUE);
         log.info("Completed request for get the Image of user by userId : {} " + id);
         StreamUtils.copy(resource, response.getOutputStream());
+    }
+    @PostMapping("/{id}/products")
+    public ResponseEntity<ProductDto>createProductWithCategory(@PathVariable Long id,@RequestBody ProductDto  productDto){
+        ProductDto productDto1 = this.productService.createWithCategory(productDto, id);
+        return new ResponseEntity<>(productDto1,HttpStatus.CREATED);
     }
 }

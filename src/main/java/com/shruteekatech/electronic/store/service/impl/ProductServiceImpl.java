@@ -1,10 +1,12 @@
 package com.shruteekatech.electronic.store.service.impl;
 
 import com.shruteekatech.electronic.store.dto.ProductDto;
+import com.shruteekatech.electronic.store.entity.Catagory;
 import com.shruteekatech.electronic.store.entity.Product;
 import com.shruteekatech.electronic.store.exception.ResourceNotFoundException;
 import com.shruteekatech.electronic.store.helper.AppConstant;
 import com.shruteekatech.electronic.store.helper.PageableResponse;
+import com.shruteekatech.electronic.store.repository.CatagoryRepository;
 import com.shruteekatech.electronic.store.repository.ProductRepository;
 import com.shruteekatech.electronic.store.service.ProductService;
 import com.shruteekatech.electronic.store.utility.CustomPageHelper;
@@ -22,14 +24,17 @@ public class ProductServiceImpl implements ProductService {
     @Autowired
     private ProductRepository productRepository;
     @Autowired
+    private CatagoryRepository catagoryRepository;
+    @Autowired
     private ModelMapper mapper;
 
     @Override
     public ProductDto createProduct(ProductDto productDto) {
         log.info("Intiating Dao call for save product details: ");
         Product product = this.mapper.map(productDto, Product.class);
-        product.setLive(AppConstant.LIVE);
-        product.setStock(AppConstant.LIVE);
+//        product.setLive(AppConstant.LIVE);
+//        product.setStock(AppConstant.LIVE);
+
         Product saveproduct = this.productRepository.save(product);
         log.info("Completed Dao call for save Product details: ");
         ProductDto productDto1 = this.mapper.map(saveproduct, ProductDto.class);
@@ -46,6 +51,7 @@ public class ProductServiceImpl implements ProductService {
         product.setLive(productDto.isLive());
         product.setPrice(productDto.getPrice());
         product.setStock(productDto.isStock());
+        product.setProductImage(productDto.getProductImage());
         product.setDiscountedprice(productDto.getDiscountedprice());
         Product updatedproduct1 = this.productRepository.save(product);
         ProductDto productDto1 = this.mapper.map(updatedproduct1, ProductDto.class);
@@ -79,7 +85,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public PageableResponse<ProductDto> getAllLive(int pageSize, int pageNumber, String sortBy, String sortDir) {
+    public PageableResponse<ProductDto> getAllLive(boolean b, int pageSize, int pageNumber, String sortBy, String sortDir) {
         log.info("Intiating Dao call for save product details: ");
 
         Sort sort=(sortDir.equalsIgnoreCase("desc"))?(Sort.by(sortBy).descending()) :(Sort.by(sortBy).ascending()) ;
@@ -99,5 +105,15 @@ public class ProductServiceImpl implements ProductService {
         Page<Product> byTitleContaining = this.productRepository.findByTitleContaining(subTitle,pageRequest);
         PageableResponse<ProductDto> pageResponse = CustomPageHelper.getPageResponse(byTitleContaining, ProductDto.class);
         return pageResponse;
+    }
+
+    @Override
+    public ProductDto createWithCategory(ProductDto productDto,Long id) {
+        Catagory catagory = this.catagoryRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException(AppConstant.RESOURCE_NOT_FOUND));
+        Product product = this.mapper.map(productDto, Product.class);
+        product.setCatagory(catagory);
+        Product product1 = this.productRepository.save(product);
+        ProductDto productDto1 = this.mapper.map(product, ProductDto.class);
+        return productDto1;
     }
 }

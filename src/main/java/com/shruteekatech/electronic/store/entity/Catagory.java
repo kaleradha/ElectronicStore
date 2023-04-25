@@ -4,6 +4,8 @@ import com.shruteekatech.electronic.store.validators.ImageNameValid;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Setter
@@ -24,5 +26,6 @@ public class Catagory extends CustomeFields{
     @ImageNameValid
     @Column(name = "background_image")
     private String coverImage;
-
+    @OneToMany(mappedBy = "catagory",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    private List<Product> products=new ArrayList<>();
 }

@@ -1,5 +1,6 @@
 package com.shruteekatech.electronic.store.dto;
 
+import com.shruteekatech.electronic.store.entity.Catagory;
 import lombok.*;
 
 import javax.validation.constraints.NotEmpty;
@@ -26,4 +27,6 @@ public class ProductDto {
     private Date addedaDte;
     private boolean live;
     private boolean stock;
+    private String productImage;
+    private CatagoryDto catagory;
 }

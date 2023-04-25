@@ -143,7 +143,7 @@ public class UserController {
             this.userServiceI.deleteUser(userId);
             ApiResponseMessage apiResponseMessage = ApiResponseMessage
                     .builder().message(AppConstant.USER_DELETE)
-                    .success(true).currentDate(new Date())
+                    .success(true).currentDate(new Date()).errorCode(ErrorCode.DELETED)
                     .status(HttpStatus.OK).build();
             log.info("Completed request for Update the user details: {} " + userId);
 

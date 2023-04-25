@@ -14,9 +14,9 @@ public interface ProductService {
     void deleteProduct(long productId);
     PageableResponse<ProductDto>getAll(int pageSize, int pageNumber, String sortBy, String sortDir);
 
-    PageableResponse<ProductDto>getAllLive(int pageSize, int pageNumber, String sortBy, String sortDir);
+    PageableResponse<ProductDto>getAllLive(boolean b, int pageSize, int pageNumber, String sortBy, String sortDir);
 
     PageableResponse<ProductDto>searchProductByTitle(String subTitle,int pageSize, int pageNumber, String sortBy, String sortDir);
 
-
+ProductDto createWithCategory(ProductDto productDto,Long id);
 }
